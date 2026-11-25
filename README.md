@@ -1,16 +1,94 @@
-# React + Vite
+# 🍽️ College Canteen Token System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web-based college canteen management application designed to simplify food ordering and reduce waiting time through a digital token-based system.
 
-Currently, two official plugins are available:
+## 🚀 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The College Canteen Token System provides a simple and convenient interface for students to explore food items and interact with the canteen digitally. It aims to make the campus food-ordering experience faster, more organized, and user-friendly.
 
-## React Compiler
+## ✨ Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **User Interface:** Clean and responsive interface for easy navigation.
+- **Food Menu:** Browse available food items with images.
+- **User Authentication:** Login and logout functionality.
+- **Digital Token Concept:** Streamlines the canteen ordering process.
+- **Organized Experience:** Simplifies interactions between students and the canteen.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Technology | Purpose |
+|---|---|
+| React.js | Frontend development |
+| JavaScript | Application logic |
+| HTML5 | Application structure |
+| CSS3 | Styling |
+| Tailwind CSS | Utility-based styling |
+| Vite | Development and build tooling |
+
+## 📁 Project Structure
+
+```text
+college-canteen-token/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── App.jsx
+│   ├── HomePage.jsx
+│   ├── login.jsx
+│   ├── logout.jsx
+│   ├── App.css
+│   └── main.jsx
+├── index.html
+├── package.json
+├── tailwind.config.js
+└── vite.config.js
+```
+
+## ⚙️ Getting Started
+
+### Prerequisites
+- Node.js
+- npm
+- Git
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/jaswanthbhaskar-elite/College-canteen-token.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd College-canteen-token
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
+
+```bash
+npm run dev
+```
+
+5. Open the local URL displayed in your terminal.
+
+## 🎯 Project Objective
+
+To develop a practical digital solution for college canteens that improves ordering convenience, reduces manual effort, and introduces a more organized token-based ordering experience.
+
+## 👨‍💻 Developer
+
+**Jaswanth Bhaskar**
+
+Computer Science and Engineering Student
+
+---
+
+*Built as an academic project to explore modern frontend development and practical application design.*
